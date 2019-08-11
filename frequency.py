@@ -1,4 +1,4 @@
-strings = "AAAVSSSSHHDDDDDYYYYYYYYWWSD"
+strings = "AAAVSSSSAA"
 frequencyMap = {}
 for l in strings:
     if l in frequencyMap:
@@ -8,10 +8,12 @@ for l in strings:
 
 for keys,values in frequencyMap.items():
     print(keys," ",values)
-print(frequencyMap.items())
+#print(frequencyMap.items())
 
+'''
 tupleList = [('A',1),('B',3)]
 tupleList.append(('c',4))
 
 for ele,val in tupleList:
     print(ele,val)
+'''

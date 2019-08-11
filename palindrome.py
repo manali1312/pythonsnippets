@@ -12,8 +12,7 @@ def isPalindrome(text):
     else:
         #print("Yay...!!!it's a palindrome")
         return True
-'''
+
 print(isPalindrome("ABSDGDTH"))
 print(isPalindrome("123321"))
 print(isPalindrome("zxcvcxz"))
-'''
