@@ -5,7 +5,7 @@ class Animals:
         self.numOflegs = numOflegs
 
     def animalInfo(self):
-        print(self.animalName,": Animal type is ",self.animalType," which has ",self.numOflegs,"legs")
+        print(self.animalName,": Animal type is ",self.animalType," which has ",self.numOflegs,"legs") 
 
     def getNumOfLegs(self):
         print("Number of legs are: ",self.numOflegs)
